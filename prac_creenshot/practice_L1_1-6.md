@@ -44,13 +44,28 @@
 ## L1 Practice-2： 第 2 关	玩转书生「多模态对话」和「AI搜索」产品
 
 
-  ### P2-1: 玩转书生「多模态对话」
-  ![连接](./assets/)
-
   
   ### P2-1: 玩转书生和「AI搜索」产品
-  ![连接](./assets/)
+
+  MindSearch问题1：
+
+  ![连接](./assets/L1/Q1-1.jpg)
   
+  MindSearch问题2：
+
+  ![连接](./assets/L1/Q1-2.jpg)
+  
+  MindSearch问题3：
+
+  ![连接](./assets/L1/Q1-3.jpg)
+
+  ### P2-1: 玩转书生.浦语
+
+  ![连接](./assets/L1/Q2-1.jpg)
+
+  ### P3-1: 玩转书生「多模态对话」
+
+  ![连接](./assets/L1/Q3-1.jpg)
 
 
 ## L1 Practice-3： 第 3 关	浦语提示词工程实践	
