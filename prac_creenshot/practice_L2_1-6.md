@@ -289,49 +289,33 @@ InternVL2-2B启动时GPU显存的使用量：
 
 
   
-## L2 Practice-5： 第 6 关	XTuner 微调个人小助手认知
+## L2 Practice-5： 第 5 关	茴香豆：企业级知识库问答工具
 
-  ### P5-1: 使用 XTuner 微调 InternLM2-Chat-7B 实现自己的小助手认知
-
-开始用XTuner微调：
-
-  ![连接](./assets/L2/xtuner-1.jpg)
-
-XTuner微调中GPU使用情况：
-  ![连接](./assets/L2/xtuner-1-gpu.jpg)
-
-XTuner微调后小助手名字更新：
-
-  ![连接](./assets/L2/xtuner-after.jpg)
-
-  ![连接](./assets/L2/xtuner-after2.jpg)
+  ### 本节无闯关任务，不作为进阶闯关的要求～
 
 
-  ![连接](./assets/L2/xtuner-after3.jpg)
 
-  ![连接](./assets/L2/xtuner-after4.jpg)
 
-  ## L2 Practice-6： 第 7 关	OpenCompass 评测书生大模型实践
 
-  ### P4-1: 使用 OpenCompass 评测浦语 API 记录复现过程并截图
-    运行前数据准备：
+  ## L2 Practice-6： 第 6 关	MindSearch深度解析及实践
 
-  ![连接](./assets/L2/OpenCompass-1-data.jpg)
+  ### P6: 在官方的MindSearch页面 复制Spaces应用到自己的Spaces下，并在必要的步骤以及成功的对话测试结果
 
-  运行评估遇到问题：
-  ![连接](./assets/L2/OpenCompass-1-config-error.jpg)
+  复制后运行：
 
- 修复问题：
-  ![连接](./assets/L2/OpenCompass-1-config-error-fix.jpg)
+  ![连接](./assets/L2/L2-6-MindSearch-HuggingFaceSpaces.jpg)
 
-  展示config list：
+  运行遇到问题log输出：
+  ![连接](./assets/L2/L2-6-MindSearch-HuggingFaceSpaces-errorlog.jpg)
 
-  ![连接](./assets/L2/OpenCompass-1-config.jpg)
+  运行遇到问题界面：
+  ![连接](./assets/L2/L2-6-MindSearch-HuggingFaceSpaces-error.jpg)
 
-  OpenCompass评测中：
+  重启Spaces修复问题：
+  ![连接](./assets/L2/L2-6-MindSearch-HuggingFaceSpaces-restarting.jpg)
 
-  ![连接](./assets/L2/OpenCompass-1-inference-1.jpg)
+  正确结果展示：
 
-  展示评测结果：
+  ![连接](./assets/L2/L2-6-MindSearch-HuggingFaceSpaces-answer.jpg)
 
-  ![连接](./assets/L2/OpenCompass-1-result.jpg)
+  
