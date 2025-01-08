@@ -143,6 +143,39 @@ RAG 知识库构建后本地模型：
   ![连接](./assets/L1/llamaIndexlocal_streamlit-2.jpg)
 
 
+  ### P4-3: 基于 LlamaIndex和浦语API部署到HF
+
+  创建app.py：
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-apppy.jpg)
+
+  更新app.py,使用hf上的sentence model，同时更新data目录：
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-updatingapp.jpg)
+
+  这两行代码更新为：
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-updatingapp-updated.jpg)
+
+  创建requirement.txt
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-requimenttxt.jpg)
+  
+
+  上传到hf，然后开始自动构建：
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-building.jpg)
+
+
+  成功运行：
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-running.jpg)
+
+  HF spaces上的文件清单：
+
+  ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-files.jpg)
+
+
+
 
   
 ## L1 Practice-5： 第 6 关	XTuner 微调个人小助手认知
@@ -166,6 +199,22 @@ XTuner微调后小助手名字更新：
   ![连接](./assets/L1/xtuner-after3.jpg)
 
   ![连接](./assets/L1/xtuner-after4.jpg)
+
+### P5-2: 上传微调后的模型到ModelScope
+
+用XTuner完成微调：
+
+  ![连接](./assets/L1/L1-5-Xtuner-HF-SFTfile.png)
+
+XTuner微调后的adapter文件：
+  ![连接](./assets/L1/L1-5-Xtuner-HF-adapter.png)
+
+合并后的文件：
+  ![连接](./assets/L1/L1-5-Xtuner-HF-files.png)  
+
+上传到ModelScope：
+  ![连接](./assets/L1/L1-5-Xtuner-HF-ModelScopeWeb.png)  
+
 
   ## L1 Practice-6： 第 7 关	OpenCompass 评测书生大模型实践
 
@@ -191,3 +240,5 @@ XTuner微调后小助手名字更新：
   展示评测结果：
 
   ![连接](./assets/L1/OpenCompass-1-result.jpg)
+
+

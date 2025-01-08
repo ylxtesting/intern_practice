@@ -112,6 +112,23 @@
   ![连接](./assets/L2/L2-2-Lagent-1-demo3-multiagent-finalresult.jpg)
 
 
+  ### P2-3: Lagent上传hf
+
+创建app.py：
+  ![连接](./assets/L2/L2-2-Lagent-3-huggingface-app.jpg)
+
+创建requirement.txt：
+  ![连接](./assets/L2/L2-2-Lagent-3-huggingface-updaterequirementtext.jpg)
+
+创建hf spaces：
+  ![连接](./assets/L2/L2-2-Lagent-3-huggingface-createHFSpaces.jpg)
+
+添加secret：
+  ![连接](./assets/L2/L2-2-Lagent-3-huggingface-createHFSpaces-setsecret.jpg)
+
+成功运行应用：
+  ![连接](./assets/L2/L2-2-Lagent-3-huggingface-done.jpg)
+
 ## L2 Practice-3： 第 3 关  LMDeploy 量化部署进阶实践	
 
 
@@ -262,6 +279,8 @@ InternVL2-2B页面：
 InternVL2-2B启动时GPU显存的使用量：
 
   ![连接](./assets/L2/L2-4-InternVL-GPU.jpg)
+
+
 ### P4-2: XTuner微调InternVL2-2B实践
 
  微调终端显示：
@@ -286,6 +305,26 @@ InternVL2-2B启动时GPU显存的使用量：
 微调后启动网页应用：
 
   ![连接](./assets/L2/L2-4-InternVL-fineturn-result.jpg)
+
+
+### P4-3: 上传XTuner微调后的InternVL2-2B模型到ModelScope
+
+ 微调InternVL2-2B模型：
+
+  ![连接](./assets/L2/L2-4-InternVL-ModelScope-SFT.png)
+
+ 转换模型：
+
+  ![连接](./assets/L2/L2-4-InternVL-ModelScope-convert.png)
+
+本地文件：
+
+  ![连接](./assets/L2/L2-4-InternVL-ModelScope-localfiles.png)
+
+
+上传到ModelScope后的文件清单：
+
+  ![连接](./assets/L2/L2-4-InternVL-ModelScope-ModelScopefiles.png)
 
 
   
