@@ -115,18 +115,27 @@
   ### P2-3: Lagent上传hf
 
 创建app.py：
+
+
   ![连接](./assets/L2/L2-2-Lagent-3-huggingface-app.jpg)
 
 创建requirement.txt：
+
+
   ![连接](./assets/L2/L2-2-Lagent-3-huggingface-updaterequirementtext.jpg)
 
 创建hf spaces：
+
+
   ![连接](./assets/L2/L2-2-Lagent-3-huggingface-createHFSpaces.jpg)
 
 添加secret：
+
+
   ![连接](./assets/L2/L2-2-Lagent-3-huggingface-createHFSpaces-setsecret.jpg)
 
 成功运行应用：
+
   ![连接](./assets/L2/L2-2-Lagent-3-huggingface-done.jpg)
 
 ## L2 Practice-3： 第 3 关  LMDeploy 量化部署进阶实践	
@@ -296,6 +305,7 @@ InternVL2-2B启动时GPU显存的使用量：
   ![连接](./assets/L2/L2-4-InternVL-fineturn-GPU-source.jpg)
 
 微调完成：
+
   ![连接](./assets/L2/L2-4-InternVL-fineturn-done.jpg)
 
 微调结果：

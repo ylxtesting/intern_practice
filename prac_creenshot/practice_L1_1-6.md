@@ -148,12 +148,15 @@ RAG 知识库构建后本地模型：
   创建app.py：
 
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-apppy.jpg)
+  
 
   更新app.py,使用hf上的sentence model，同时更新data目录：
 
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-updatingapp.jpg)
 
   这两行代码更新为：
+
+
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-updatingapp-updated.jpg)
 
   创建requirement.txt
@@ -163,14 +166,22 @@ RAG 知识库构建后本地模型：
 
   上传到hf，然后开始自动构建：
 
+
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-building.jpg)
+
+
 
 
   成功运行：
 
+
+
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-running.jpg)
 
+  
+  
   HF spaces上的文件清单：
+
 
   ![连接](./assets/L1/L1-4-LLamaIndexRAG-HF-files.jpg)
 
@@ -207,12 +218,15 @@ XTuner微调后小助手名字更新：
   ![连接](./assets/L1/L1-5-Xtuner-HF-SFTfile.png)
 
 XTuner微调后的adapter文件：
+
   ![连接](./assets/L1/L1-5-Xtuner-HF-adapter.png)
 
 合并后的文件：
+
   ![连接](./assets/L1/L1-5-Xtuner-HF-files.png)  
 
 上传到ModelScope：
+
   ![连接](./assets/L1/L1-5-Xtuner-HF-ModelScopeWeb.png)  
 
 
